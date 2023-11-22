@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DMSaluBot</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<!-- Hola qué tal, te recuerdo que la web es de uso libre -->
+<!-- usala para lo que desees y no olvides suscribirte a AlexCG Design -->
+<!-- Web hecha por AlexCG Design, si te sirvió la plantilla por favor entra a AlexCG Design -->
+<!-- ->>>> https://www.youtube.com/alexcgdesign <<<<- -->
+
+<body>
+    <header>
+        <div class="textos">
+            <h1 class="titulo">DMSALUBOT</h1>
+        </div>
+        <div class="sesgoabajo"></div>
+    </header>
+    <main>
+        <section class="acerca-de">
+            <div class="contenedor">
+                <h2 class="sobre-nosotros">Sobre nosotros</h2>
+                <h3 class="slogan">Portal Web</h3>
+                <p class="parrafo">En el ámbito de la nutrición, este avance tecnológico se manifiesta de manera impactante, especialmente en el abordaje
+                    de consultas alimentarias para personas con diabetes. La incorporación de chatbots como el pilar de esta revolución no solo acelera el 
+                    acceso a información precisa</p>
+                <p class="parrafo">"Con esta herramientas de apoyo tecnologico revolucionara la Asesoría Nutricional en los Centros de Salud 
+                    donde la implementación estratégica de chatbots brindara a traves de consultas alimentarias para pacientes 
+                    diabéticos. Esta innovación se integra sin esfuerzo en las páginas web de los centros de salud, ofreciendo asesoramiento 
+                    de manera accesible en tiempo real. 
+                    Bienvenido al Futuro de la Salud Nutricional, donde la tecnología y la atención centrada en el paciente convergen para mejorar la 
+                    calidad de vida. ¡Explora un nuevo estándar de cuidado nutricional con nosotros!"</p>
+                
+            </div>
+        </section>
+        <section class="galeria">
+            <div class="sesgoarriba"></div>
+            <div class="imagenes none">
+                <img src="img_1.jpg" alt="">
+            </div>
+            <div class="imagenes">
+                <img src="img_3.jpg" alt="">
+            </div>
+            <div class="imagenes">
+                <img src="img_2.jpg" alt="">
+                <div class="encima">
+                    <h2>DMSALUDBOT</h2>
+                    <div></div>
+                </div>
+            </div>
+            <div class="imagenes">
+                <img src="img_4.jpg" alt="">
+
+            </div>
+            <div class="imagenes none">
+                <img src="img_5.jpg" alt="">
+            </div>
+            <div class="sesgoabajo"></div>
+        </section>
+        <section class="miembros">
+            <div class="contenedor">
+                <h2 class="sobre-nosotros">Opiniones por expertos</h2>
+                <h3 class="slogan">Opiniones con respecto a la herramienta de apoyo tecnologico</h3>
+                <div class="cards">
+                    <div class="card">
+                        <img src="user.png" alt="">
+                        <h4>Dr. Henry Alvaro Maldonado</h4>
+                        <p>Lorem ipsum dolor sit.</p>
+                    </div>
+                    <div class="card">
+                        <img src="user.png" alt="">
+                        <h4>Dr. Juan lescano</h4>
+                        <p>Lorem ipsum dolor sit.</p>
+                    </div>
+                    <div class="card">
+                        <img src="user.png" alt="">
+                        <h4>Bach. Jean Pierre Gamboa</h4>
+                        <p>Lorem ipsum dolor sit.</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="user.png" alt="">
+                        <h4>Dra. Daria Ipanaque</h4>
+                        <p>Lorem ipsum dolor sit.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="fondo">
+            <div class="sesgoarriba"></div>
+            <div class="contenedor">
+                <h2 class="titulo-patrocinadores">Integración de Prospectos</h2>
+                <h3 class="subtitulo-patrocinadores"></h3>
+                <div class="clientes">
+                    <div class="cliente">
+                        <img src="clinica_1.png" alt="">
+                    </div>
+                    <div class="cliente">
+                        <img src="clinica_2.png" alt="">
+                    </div>
+                    <div class="cliente">
+                        <img src="ipress.png" alt="">
+                    </div>
+                </div>
+                <h3 class="subtitulo-patrocinadores especial"></h3>
+            </div>
+            <div class="sesgoabajo-unico"></div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor">
+            <h2 class="titulo-footer">Contactanos</h2>
+            <h3 class="subtitulo-footer">Lo apreciariamos mucho</h3>
+            <div class="footer">
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Nombre">
+                    <input type="email" name="" id="" placeholder="Email">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Ingrese su mensaje..."></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script>
+    window.addEventListener('mouseover', initLandbot, { once: true });
+    window.addEventListener('touchstart', initLandbot, { once: true });
+    var myLandbot;
+    function initLandbot() {
+      if (!myLandbot) {
+        var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
+        s.addEventListener('load', function() {
+          var myLandbot = new Landbot.Livechat({
+            configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-1662551-N2T334N8XXYMLAZT/index.json',
+          });
+        });
+        s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+      }
+    }
+    </script>
+
+</html>
