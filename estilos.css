@@ -179,7 +179,7 @@ header .boton {
 }
 
 .card {
-    margin: 20px;
+    margin: 30px auto;
     width: 30%;
     height: 250px;
     text-align: center;
