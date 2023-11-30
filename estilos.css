@@ -179,11 +179,11 @@ header .boton {
 }
 
 .card {
-    margin: 30px auto;
-    width: 30%;
+    margin: 30px;
+    width: 40%;
     height: 250px;
     text-align: center;
-    padding: 25px;
+    padding: 25px auto;
     box-shadow: 0px 0px 4px 0 rgba(52, 73, 94, 0.849);
 }
 
